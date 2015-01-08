@@ -8,7 +8,13 @@
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
     "revision": "cm-12.0"
-  },
+  }
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "revision": "cm-12.0"
+  }
   {
     "remote": "cm",
     "repository": "android_frameworks_opt_connectivity",
