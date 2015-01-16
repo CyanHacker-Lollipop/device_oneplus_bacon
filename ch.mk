@@ -28,7 +28,7 @@ $(call inherit-product, vendor/ch/config/nfc_enhanced.mk)
 # Inherit some common CH stuff.
 $(call inherit-product, vendor/ch/config/common_full_phone.mk)
 
-PRODUCT_NAME := ch_bacon
+PRODUCT_NAME := XX_bacon #DO NOT CHANGE THIS!!!
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
@@ -46,6 +46,4 @@ TARGET_CONTINUOUS_SPLASH_ENABLED := true
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/A0001:4.4.2/KVT49L/XNPH25R:user/release-keys PRIVATE_BUILD_DESC="bacon-user 4.4.2 KVT49L XNPH25R release-keys"
 else
-# Signed bacon gets a special boot animation because it's special.
-PRODUCT_BOOTANIMATION := device/oneplus/bacon/bootanimation.zip
 endif
