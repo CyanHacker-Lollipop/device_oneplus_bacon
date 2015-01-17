@@ -28,7 +28,7 @@ $(call inherit-product, vendor/ch/config/nfc_enhanced.mk)
 # Inherit some common CH stuff.
 $(call inherit-product, vendor/ch/config/common_full_phone.mk)
 
-PRODUCT_NAME := XX_bacon #DO NOT CHANGE THIS!!!
+PRODUCT_NAME := ch_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
