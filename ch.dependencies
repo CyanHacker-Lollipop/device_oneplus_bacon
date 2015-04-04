@@ -10,7 +10,7 @@
     "revision": "cm-12.1"
   },
   {
-    "remote": "tm",
+    "remote": "cm",
     "repository": "proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "revision": "cm-12.1"
