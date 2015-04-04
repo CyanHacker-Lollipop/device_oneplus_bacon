@@ -8,5 +8,11 @@
     "repository": "proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "revision": "cm-12.1"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_frameworks_opt_connectivity",
+    "target_path": "frameworks/opt/connectivity",
+    "revision": "cm-12.1"
   }
 ]
