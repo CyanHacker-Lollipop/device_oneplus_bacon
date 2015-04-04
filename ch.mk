@@ -12,6 +12,34 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+################OPTIMIZATIONS###################
+#Use Optimizations?
+USE_OPTIMIZATIONS := true
+
+ifneq ($(strip $(USE_OPTIMIZATIONS)),false)
+#HACKIFY CONFIGURATION
+
+##Define ROM toolchain and LIB Verison(should be the same version number as the toolchain)
+TARGET_GCC_AND := 4.8-sm
+TARGET_LIB_VERSION := 4.8
+
+##Define Kernel toolchain
+TARGET_GCC_ARM := 4.9-sm
+
+##Enable Pthread (only on newer devices)
+ENABLE_PTHREAD := true
+
+##Enable O3 Optimizations
+O3_OPTIMIZATIONS:= false
+
+##Enable ArchiDroid Optimizations
+ARCHIDROID_OPTIMIZATIONS := true
+endif
+#################################################
+
+##If you´re running an old device, set this to true
+USE_LEGACY_GCC := false
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
