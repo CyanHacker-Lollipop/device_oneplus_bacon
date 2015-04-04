@@ -7,7 +7,7 @@
     "remote": "tm",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "cm-12."
+    "revision": "cm-12.1"
   },
   {
     "remote": "tm",
