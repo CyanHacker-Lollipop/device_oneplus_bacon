@@ -30,10 +30,13 @@ TARGET_GCC_ARM := 4.9-sm
 ENABLE_PTHREAD := true
 
 ##Enable O3 Optimizations
-O3_OPTIMIZATIONS:= false
+O3_OPTIMIZATIONS:= true
 
 ##Enable ArchiDroid Optimizations
 ARCHIDROID_OPTIMIZATIONS := true
+
+##Enable Kernel Optimizations
+USE_KERNEL_OPTIMIZATIONS := true
 endif
 #################################################
 
