@@ -56,6 +56,9 @@ GRAPHITE_KERNEL_FLAGS := \
 export EXTRA_SABERMOD_GCC_VECTORIZE_CFLAGS := \
          -ftree-vectorize \
          -mvectorize-with-neon-quad
+else
+$(error *  Please compile on a Linux host OS to use this optimizations)
+endif
 
 endif
 #################################################
